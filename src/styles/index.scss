@@ -1,0 +1,56 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+
+.app {
+  font: var(--font-m);
+  background-color: var(--bg-color);
+  color: var(--prymary-color);
+
+  min-height: 100vh;
+}
+
+.wrBtn{
+
+  flex-wrap: wrap;
+  height: 100px;
+  //padding: 10px;
+  //border: 1px solid #e67df6;
+  //border-radius: 10px;
+  display: flex;
+  align-items: center;
+  //gap: 40px;
+  position: relative;
+
+}
+
+.btn{
+  padding: 6px 20px;
+  //border-radius: 20px;
+  text-decoration: none;
+  transition: all 900ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
