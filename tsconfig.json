@@ -9,6 +9,9 @@
     "jsx": "react-jsx",
     //для абсолютного импорта
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     //компилятор будет обрабатывать не только TS файлы но и JS
     "allowJs": true,
     "moduleResolution": "node",
